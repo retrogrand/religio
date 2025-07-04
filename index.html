@@ -35,11 +35,24 @@
       padding: 1em;
       margin: 2em 0;
     }
+    .header-flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  height: 1.2em; /* matches ~2.4em font-size of h1 */
+  vertical-align: middle;
+}
   </style>
 </head>
 <body>
 
+  <div class="header-flex">
+  <img src="https://raw.githubusercontent.com/retrogrand/religio/refs/heads/main/religio_logo.jpg" alt="Religio Logo" class="logo">
   <h1>Religio.ai</h1>
+</div>
   <blockquote>“To see your soul mapped—not to change it, but to recognize its resonance.”</blockquote>
 
   <p><strong>Religio.ai</strong> is an open-source platform for mapping, remixing, and translating belief systems. It helps individuals articulate and refine their deepest values—what we call their <strong>Biblio</strong>—in a living, forkable format. Some draw from ancient traditions like Christianity, Buddhism, or Judaism. Others remix new paths like Synthology, Animist Tech Ethics, or the Gospel of Joy.</p>
